@@ -175,22 +175,38 @@ namespace MyApplication
 
     //Using Constructor in Two Files prog2.cs
 
-   /* class Car
+    /* class Car
+     {
+         public string model;
+         public string color;
+         public int year;
+
+         public Car(string modelName, string modelColor, int modelYear)
+         {
+             model = modelName;
+             color = modelColor;
+             year = modelYear;
+         }
+     }*/
+
+
+    //GET SET
+    /*  class Person
+      {
+          private string name;
+          public string Name
+          {
+              get { return name; }
+              set { name = value; }
+          }
+
+      }*/
+
+
+    //GET SET SHORT HAND REPRESENTATION
+  /*  class Person
     {
-        public string model;
-        public string color;
-        public int year;
-
-        public Car(string modelName, string modelColor, int modelYear)
-        {
-            model = modelName;
-            color = modelColor;
-            year = modelYear;
-        }
+        public string Name;
+        { get; set; }
     }*/
-
-
-
-
-
 }

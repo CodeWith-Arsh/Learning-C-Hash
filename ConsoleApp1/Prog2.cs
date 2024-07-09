@@ -23,4 +23,28 @@ namespace MyApplication
         }
     }*/
 
+    //GET SET
+    /*  class Program
+      {
+          static void Main(string[] args)
+          {
+              Person person = new Person();
+              person.Name = "Test";
+              Console.WriteLine(person.Name);
+          }
+      }*/
+
+   /* class Program
+    {
+        static void Main(string[] args)
+        {
+            Person person = new Person();
+            person.Name = "Test";
+            Console.WriteLine("The name of the person is " + person.Name);
+        }
+
+
+    }*/
+
+
 }
