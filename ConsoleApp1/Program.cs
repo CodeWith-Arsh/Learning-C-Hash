@@ -66,7 +66,7 @@ using System.ComponentModel.DataAnnotations;
 }*/
 
 //Multiple Objects of One Class
-namespace MyApplication
+/*namespace MyApplication
 {
     class Car
     {
@@ -91,4 +91,26 @@ namespace MyApplication
         }
     }
 }
+*/
+
+//C# Methods
+/*namespace MyApplication
+{
+    class Car
+    {
+        string color = "red";
+        string maxSpeed = "100";
+
+        public void fullThrottle()
+        {
+            Console.WriteLine("The car is going very fast with a speed of");
+
+        }
+        static void Main(string[] args)
+        {
+            Car car = new Car();
+            car.fullThrottle();
+        }
+    }
+}*/
 
